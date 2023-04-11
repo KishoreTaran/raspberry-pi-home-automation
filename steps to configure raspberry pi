@@ -1,0 +1,14 @@
+Foramt SD card with sdformatter
+Burn Raspberry pi with Raspberry Pi imager
+on Raspberry pi imager before burning file , change the Wifi,SSH and username,password in Settings tab
+Choose image file then select corresponding storage and then write
+
+After completing burning, just remove the card then inserted to Raspberry pi SD slot
+
+Already connected 7 inch touch display in Raspberry pi - Desktop applocation shown
+
+Download the pyhton script, make this script executable
+
+Then add script in startup , thats All
+
+our Project Ready
