@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Georgia;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red208\green204\blue205;\red0\green0\blue0;\red23\green22\blue22;
+}
+{\*\expandedcolortbl;;\cssrgb\c85098\c83922\c83922;\cssrgb\c0\c0\c0;\cssrgb\c11765\c11373\c11373;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs40 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Create a directory \'91autostart\'92 in .config if it\'92s not created before.\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs30 \cf2 \cb4 pi@raspberrypi:~ $\'a0mkdir /home/pi/.config/autostart/
+\f0\fs40 \cb3 \
+move into this directory\
+
+\f1\fs30 \cb4 pi@raspberrypi:~ $ cd /home/pi/.config/autostart/
+\f0\fs40 \cb3 \
+Now create a file MyApp.desktop in the above directory with the following content.\
+
+\f1\fs30 \cb4 [Desktop Entry]\cb1 \uc0\u8232 \cb4 Name=Your Application Name\cb1 \uc0\u8232 \cb4 Type=Application\cb1 \uc0\u8232 \cb4 Comment=Some Comments about your program\cb1 \uc0\u8232 \cb4 Exec=/usr/bin/python\'a0
+\f2\b /home/pi/homeautomation
+\f1\b0 .py
+\f0\fs40 \cb3 \
+Allow File to be executable.\cb1 \uc0\u8232 
+\f1\fs30 \cb4 pi@raspberrypi:~ $ chmod +x /home/pi/.config/autostart/LX.desktop
+\f0\fs40 \cb3 \
+Now restart your pi and it will run your app After desktop is ready.\
+}
